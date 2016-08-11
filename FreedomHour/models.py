@@ -1,4 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
+import datetime
+import bcrypt
 
 db = SQLAlchemy()
 
